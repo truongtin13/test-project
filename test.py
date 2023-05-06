@@ -1,7 +1,6 @@
 import cv2
 import streamlit as st
 import numpy as np
-import face_recognition
 from df_change import df_change
 
 def nhandien():
