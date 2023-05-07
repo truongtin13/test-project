@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-import dlib-19.19.0-cp37-cp37m-win_amd64
+import dlib_19.19.0_cp37_cp37m_win_amd64
 import cmake
 import face_recognition
 from df_change import df_change
