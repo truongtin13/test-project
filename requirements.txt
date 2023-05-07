@@ -2,5 +2,5 @@ numpy
 streamlit
 dlib-bin
 cmake
-face_recognition @
-git+https://github.com/thetoby9944/face_recognition
+face_recognition 
+@git+https://github.com/thetoby9944/face_recognition
