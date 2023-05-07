@@ -1,4 +1,5 @@
 import numpy as np
+from PIL import Image
 import face_recognition
 import streamlit as st
 from df_change import df_change
