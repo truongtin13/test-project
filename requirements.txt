@@ -4,3 +4,4 @@ streamlit
 mtcnn
 git+https://github.com/rcmalli/keras-vggface.git
 matplotlib
+opencv-python
