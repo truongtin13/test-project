@@ -1,5 +1,6 @@
 import streamlit as st
-from mtcnn import MTCNN
+from mtcnn.mtcnn import MTCNN
+import cv2
 import numpy as np
 from scipy.spatial.distance import cosine
 from df_change import df_change
