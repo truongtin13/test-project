@@ -1,5 +1,5 @@
 import streamlit as st
-from mtcnn.mtcnn import MTCNN
+from mtcnn import MTCNN
 import cv2
 import numpy as np
 from scipy.spatial.distance import cosine
