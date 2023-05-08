@@ -10,7 +10,7 @@ def nhandien():
     name = st.text_input('Nhập đầy đủ họ tên:')
     known_image = st.camera_input("Chụp một bức ảnh để đăng ký:")
         
-    if known_image:
+    if known_image is not None:
       if name == '':
         st.error('Xin hãy nhập họ tên.')
             
