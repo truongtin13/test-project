@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-import face_recognition
+import face-recognition
 from df_change import df_change
 
 def nhandien():
