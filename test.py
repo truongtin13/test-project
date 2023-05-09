@@ -7,6 +7,7 @@ def nhandien():
   dfmid = df_change()
   COLS = dfmid.columns.values.tolist().copy()
   dfmid.drop(columns=COLS[17:], inplace=True)
+  name_list = np.array(df['NAME']).tolist()
 
   tab1, tab2 = st.tabs(['Đăng ký khuôn mặt','Nhận diện khuôn mặt'])
     
