@@ -1,6 +1,9 @@
+wheel
 numpy
-Pillow
+pandas
+plotly
+opencv-contrib-python
+cmake
+dlib
+face_recognition
 streamlit
-tensorflow
-matplotlib
-opencv-contrib-python-headless
