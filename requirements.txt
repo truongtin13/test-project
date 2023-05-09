@@ -5,5 +5,5 @@ plotly
 opencv-contrib-python
 cmake
 dlib
-face-recognition-models
+face-recognition
 streamlit
