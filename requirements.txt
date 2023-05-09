@@ -7,4 +7,3 @@ cmake
 dlib
 face_recognition
 streamlit
-protobuf==23.1.2
