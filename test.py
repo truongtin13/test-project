@@ -6,6 +6,7 @@ from df_change import df_change
 def nhandien():
   dfmid = df_change()
   COLS = dfmid.columns.values.tolist().copy()
+  dfmid.drop(columns=COLS[17:], inplace=True)
 
   tab1, tab2 = st.tabs(['Đăng ký khuôn mặt','Nhận diện khuôn mặt'])
     
